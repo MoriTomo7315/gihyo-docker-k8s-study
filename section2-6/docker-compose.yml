@@ -1,8 +1,6 @@
 version: '3'
 services:
   master:
-    # initial pass: bdc931f33f6e48fe89bbeabb87c7bd49
-    # user/pass jenkins/jenkins
     container_name: master
     image: jenkins/jenkins:latest
     ports:
